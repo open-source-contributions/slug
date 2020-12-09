@@ -1,8 +1,8 @@
-##About Simple Slug Generator
+## About Simple Slug Generator
 
 Hi with the help of this page you can generate simple Slug
 
-##Working Basic Example To Generate Slug
+## Working Basic Example To Generate Slug
 
 ```php
 <?php
@@ -16,7 +16,7 @@ echo Slug::create($string);
 
 ```
 
-##Generate UNIQUE Slugs Example
+## Generate UNIQUE Slugs Example
 
 ```php
 <?php
@@ -28,7 +28,7 @@ $title  = "How To Create A Composer Package? Test It Locally And Add To Packagis
 
 $slug   = Slug::create($title);
 
-/** Following is the simple PDO Query to check the 
+/** Following is the simple PDO Query to check the
  * total number of blog with similar slug name  */
 $blog_count_stmt = $pdo->prepare("
                     SELECT
